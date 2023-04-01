@@ -11,6 +11,20 @@ body{
 .nav{
     margin-top: 15px;
 }
+
 .nav-link{
     margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3F72AF !important;
+    font-weight: bolder !important;
+}
+
+
+.nav-link:hover{
+    margin-right: 80px;
+    text-decoration: underline;
+}
+
+.nav-link.active{
+    text-decoration: underline;
 }
