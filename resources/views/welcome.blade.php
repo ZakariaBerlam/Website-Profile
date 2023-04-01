@@ -13,14 +13,14 @@
 </head>
 <body>
     <nav class="nav justify-content-center sticky-top">
-      <a class="nav-link active" aria-current="page" href="#">Profile</a>
+      <a class="nav-link" href="#Profile">Profile</a>
       <a class="nav-link" href="#">Skills</a>
       <a class="nav-link" href="#">Experience</a>
       <a class="nav-link" href="#">About Me</a>
       <a class="nav-link last-child" href="#">Know Me More</a>
     </nav>
 
-    <section class="profile">
+    <section class="profile" id="Profile">
         <div class="containertulis">
             <div class="Profiletitle">
                 <H1 class="nama">Hi, I'm Zakaria</H1>
@@ -30,8 +30,13 @@
             </div>
         </div>
         <div class="foto">
+            <img class="back" src="bg.png" alt="" srcset="">
             <img class="fotoku" src="profil.png" alt="" srcset="">
         </div>
+    </section>
+
+    <section id="skillset">
+        <div class="containerskill"></div>
     </section>
 </body>
 </html>

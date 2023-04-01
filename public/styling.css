@@ -36,24 +36,21 @@ body{
 }
 
 .profile{
+    margin-top: 0px;
     display: flex;
-    justify-content: center;
 }
 
-@keyframes mymove{
+@keyframes mymove {
     from {left: 0px;}
     to {left: 200px;}
 }
 
-.Profiletitle{
+.Profiletitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
     margin-left: 200px;
-    animation-duration: mymove;
-    animation-duration: 4s;
+    animation-name: mymove;
 }
-
-
 
 .nama{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -63,6 +60,7 @@ body{
 
 .containertulis{
     display: flex;
+    margin-top: 160px;
     flex-direction: column;
     justify-content: center;
 }
@@ -79,12 +77,21 @@ body{
     color: #112D4E;
 }
 
-.fotoku{
-    width: 300px;
-    margin-top: 20px;
+.back{
+    position: absolute;
+    margin-top: 67px;
+    width: 475px;
     height: auto;
+    /* border-style: dashed; */
+    padding-left: 0;
 }
 
-.foto{
-    margin-left: 75px;
+.fotoku{
+    /* border-style: dashed; */
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 70px;
 }
+
+
