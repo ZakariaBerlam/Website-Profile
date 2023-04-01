@@ -31,14 +31,34 @@ body{
     color: #112D4E !important;
 }
 
+.nav-link:last-child{
+    margin-right: 0px;
+}
+
 .profile{
     display: flex;
+    justify-content: center;
+}
+
+@keyframes mymove{
+    from {left: 0px;}
+    to {left: 200px;}
 }
 
 .Profiletitle{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
-    margin-left: 225px;
+    margin-left: 200px;
+    animation-duration: mymove;
+    animation-duration: 4s;
+}
+
+
+
+.nama{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #112D4E;
 }
 
 .containertulis{
@@ -56,6 +76,7 @@ body{
     text-align: center;
     font-size: 14px;
     margin-left: 45px;
+    color: #112D4E;
 }
 
 .fotoku{
@@ -65,5 +86,5 @@ body{
 }
 
 .foto{
-    margin-left: 150px;
+    margin-left: 75px;
 }
