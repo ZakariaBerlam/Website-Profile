@@ -14,7 +14,7 @@
 <body>
     <nav class="nav justify-content-center sticky-top">
       <a class="nav-link" href="#Profile">Profile</a>
-      <a class="nav-link" href="#">Skills</a>
+      <a class="nav-link" href="#skillset">Skills</a>
       <a class="nav-link" href="#">Experience</a>
       <a class="nav-link" href="#">About Me</a>
       <a class="nav-link last-child" href="#">Know Me More</a>
@@ -40,16 +40,23 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3" style="max-width: 720px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                  <img src="..." class="img-fluid rounded-start" alt="...">
+                                  <img src="yo.png" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                   <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Computer Security</h5>
+                                    <p class="card-text">Still a newbie at computer security but i love to learn about computer security coz it's looks cool. Just randomly smashing keyboard.</p>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">
+                                        <p class="matery">Mastery:</p>
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 25%"></div>
+                                        </div>
+                                        </small>
+                                    </p>
                                   </div>
                                 </div>
                             </div>

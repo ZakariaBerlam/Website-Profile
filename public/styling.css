@@ -98,6 +98,21 @@ body{
     margin-top: 300px;
 }
 
+.carousel-control-prev{
+    background-color: #112D4E !important;
+}
 
+.carousel-control-next{
+    background-color: #112D4E !important;
+}
+
+.card{
+    margin-left: 215px;
+}
+
+.text-body-secondary{
+    display: flex;
+    flex-direction: column;
+}
 
 
