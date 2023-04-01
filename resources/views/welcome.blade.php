@@ -16,8 +16,8 @@
       <a class="nav-link active" aria-current="page" href="#">Profile</a>
       <a class="nav-link" href="#">Skills</a>
       <a class="nav-link" href="#">Experience</a>
-      <a class="nav-link">About Me</a>
-      <a class="nav-link">Know Me More</a>
+      <a class="nav-link" href="#">About Me</a>
+      <a class="nav-link last-child" href="#">Know Me More</a>
     </nav>
 
     <section class="profile">
