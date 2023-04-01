@@ -12,7 +12,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="nav justify-content-center nav-underline">
+    <nav class="nav justify-content-center sticky-top">
       <a class="nav-link active" aria-current="page" href="#">Profile</a>
       <a class="nav-link" href="#">Skills</a>
       <a class="nav-link" href="#">Experience</a>

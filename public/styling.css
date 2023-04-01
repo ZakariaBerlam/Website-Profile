@@ -6,6 +6,7 @@
 
 body{
     background-color: #F9F7F7 !important;
+    height: 2000px;
 }
 
 .nav{
@@ -27,4 +28,5 @@ body{
 
 .nav-link.active{
     text-decoration: underline;
+    color: #112D4E !important;
 }
