@@ -19,5 +19,16 @@
       <a class="nav-link">About Me</a>
       <a class="nav-link">Know Me More</a>
     </nav>
+
+    <section class="profile">
+        <div class="containertulis">
+            <div class="Profiletitle">
+                <H1>Hi, I'm Zakaria</H1>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </section>
 </body>
 </html>

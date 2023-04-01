@@ -30,3 +30,9 @@ body{
     text-decoration: underline;
     color: #112D4E !important;
 }
+
+.Profiletitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    margin-left: 175px;
+}
