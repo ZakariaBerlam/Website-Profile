@@ -35,7 +35,10 @@
         </div>
     </section>
 
+    <div class="ist"></div>
+
     <section id="skillset">
+        <div class="ist1"></div>
         <div class="containerskill">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -48,12 +51,12 @@
                                 <div class="col-md-8">
                                   <div class="card-body">
                                     <h5 class="card-title">Computer Security</h5>
-                                    <p class="card-text">Still a newbie at computer security but i love to learn about computer security coz it's looks cool. Just randomly smashing keyboard.</p>
+                                    <p class="card-text">The field that most interests me to pursue is Information Technology, I have only been developing my skills in this field for the past month.</p>
                                     <p class="card-text">
                                         <small class="text-body-secondary">
                                         <p class="matery">Mastery:</p>
                                         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 25%"></div>
+                                            <div class="progress-bar" style="width: 10%"></div>
                                         </div>
                                         </small>
                                     </p>
@@ -63,10 +66,50 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="prof.png" class="d-block w-100" alt="...">
+                        <div class="card mb-3" style="max-width: 720px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="bisa.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Artificial Intelligence</h5>
+                                    <p class="card-text">I have 2 semesters worth of experience in the field of artificial intelligence, with a main interest in Deep Learning.I have a high passion for delving into the knowledge of Artificial Intelligence.</p>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">
+                                        <p class="matery">Mastery:</p>
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 50%"></div>
+                                        </div>
+                                        </small>
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="..." class="d-block w-100" alt="...">
+                        <div class="card mb-3" style="max-width: 720px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="lead.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Leadership</h5>
+                                    <p class="card-text">I have been experienced in organizing since junior high school, I have gained quite a lot of experience. Nevertheless, I still want to learn more about leadership in-depth.</p>
+                                    <p class="card-text">
+                                        <small class="text-body-secondary">
+                                        <p class="matery">Mastery:</p>
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 50%"></div>
+                                        </div>
+                                        </small>
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

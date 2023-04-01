@@ -94,8 +94,16 @@ body{
     margin-left: 70px;
 }
 
+.ist{
+    height: 100px;
+}
+
+.ist1{
+    height: 100px;
+}
+
 #skillset{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .carousel-control-prev{
