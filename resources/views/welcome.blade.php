@@ -23,11 +23,14 @@
     <section class="profile">
         <div class="containertulis">
             <div class="Profiletitle">
-                <H1>Hi, I'm Zakaria</H1>
+                <H1 class="nama">Hi, I'm Zakaria</H1>
             </div>
-            <div>
-                
+            <div class="descprofile">
+                <p class="isidesc">I'm a Programmer with main interest on Artificial Intelligence and Computer Security.<Br>I love playing sport such like volleyball and basketball, Also self-proclaimed gymrat and gymbro>:3.</p>
             </div>
+        </div>
+        <div class="foto">
+            <img class="fotoku" src="profil.png" alt="" srcset="">
         </div>
     </section>
 </body>

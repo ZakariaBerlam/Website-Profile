@@ -31,8 +31,39 @@ body{
     color: #112D4E !important;
 }
 
+.profile{
+    display: flex;
+}
+
 .Profiletitle{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 150px;
-    margin-left: 175px;
+    margin-top: 50px;
+    margin-left: 225px;
+}
+
+.containertulis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nama{
+    font-size: 35px;
+}
+
+.isidesc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.fotoku{
+    width: 300px;
+    margin-top: 20px;
+    height: auto;
+}
+
+.foto{
+    margin-left: 150px;
 }
