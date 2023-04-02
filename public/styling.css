@@ -102,6 +102,12 @@ body{
     height: 100px;
 }
 
+.titleskil{
+    margin-left: 550px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #skillset{
     margin-top: 100px;
 }
@@ -123,4 +129,63 @@ body{
     flex-direction: column;
 }
 
+#aboutme{
+    margin-top: 200px;
+}
 
+.personality{
+    height: 500px;
+    background-color: #DBE2EF;
+}
+
+.kepalap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personalhead{
+    padding-top: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #112D4E;
+}
+
+.ent{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #112D4E;
+}
+
+.mc{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #3F72AF;
+}
+
+.akumc{
+    margin-top: 30px;
+    height: 200px;
+    width: auto;
+}
+
+.jelasmc{
+    margin-top: 40px;
+    width: 400px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    color: #3F72AF;
+    margin-left: 380px;
+}
+
+.D{
+    padding-top: 20px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: #112D4E;
+}

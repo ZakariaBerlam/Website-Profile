@@ -13,10 +13,9 @@
 </head>
 <body>
     <nav class="nav justify-content-center sticky-top">
-      <a class="nav-link" href="#Profile">Profile</a>
+      <a class="nav-link" href="#">Profile</a>
       <a class="nav-link" href="#skillset">Skills</a>
-      <a class="nav-link" href="#">Experience</a>
-      <a class="nav-link" href="#">About Me</a>
+      <a class="nav-link" href="#aboutme">About Me</a>
       <a class="nav-link last-child" href="#">Know Me More</a>
     </nav>
 
@@ -39,10 +38,11 @@
 
     <section id="skillset">
         <div class="ist1"></div>
+        <h2 class="titleskil">Skills</h2>
         <div class="containerskill">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="card mb-3" style="max-width: 720px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <div class="card mb-3" style="max-width: 720px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -102,7 +102,7 @@
                                         <small class="text-body-secondary">
                                         <p class="matery">Mastery:</p>
                                         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 50%"></div>
+                                            <div class="progress-bar" style="width: 70%"></div>
                                         </div>
                                         </small>
                                     </p>
@@ -122,6 +122,48 @@
                 </button>
             </div>
         </div>
+    </section>
+
+    <section id="aboutme">
+        <div class="about">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="personality">
+                            <div class="kepalap">
+                                <h3 class="personalhead">Personality</h3>
+                                <h4 class="ent">ENFJ-A</h4>
+                                <h5 class="mc">The Protagonist</h5>
+                                <img class="akumc" src="yahalo.svg" alt="" srcset="">
+                                <p class="jelasmc">"A Protagonist (ENFJ) is a person with the Extraverted, Intuitive, Feeling, and Judging personality traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="personality">
+                        <div class="kepalap">
+                                <h3 class="D">My 3 D's</h3>
+                                <h3 class="D">"Discipline</h3></h3>
+                                <h3 class="D">Determination</h3>
+                                <h3 class="D">Dedication"</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sosmed">
+        <div class="instagram"></div>
     </section>
 </body>
 </html>
