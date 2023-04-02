@@ -140,13 +140,14 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                      <div class="personality">
-                        <div class="kepalap">
+                        <div class="personality">
+                            <div class="kepalap">
                                 <h3 class="D">My 3 D's</h3>
-                                <h3 class="D">"Discipline</h3></h3>
-                                <h3 class="D">Determination</h3>
-                                <h3 class="D">Dedication"</h3>
+                                <h3 class="D1">Discipline</h3></h3>
+                                <h3 class="D2">Determination</h3>
+                                <h3 class="D3">Dedication</h3>
                             </div>
+                            <p class="quote">“We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discipline weighs ounces while regret weighs tons.”</p>
                         </div>
                     </div>
                 </div>
@@ -162,8 +163,12 @@
         </div>
     </section>
 
-    <section class="sosmed">
-        <div class="instagram"></div>
+    <section id="sosmed">
+        <h1 class="kontak">Contact me on</h1>
+        <div class="instagram">
+            <img class="ig" src="ig.png" alt="">
+            <a class="descig" href="https://www.youtube.com/watch?v=UIp6_0kct_U">@zach.berlam</a>
+        </div>
     </section>
 </body>
 </html>

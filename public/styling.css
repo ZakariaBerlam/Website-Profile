@@ -189,3 +189,63 @@ body{
     font-size: 60px;
     color: #112D4E;
 }
+
+.D1{
+    padding-top: 60px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #112D4E;
+}
+
+.D2{
+    padding-top: 15px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #112D4E;
+}
+
+.D3{
+    padding-top: 15px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #112D4E;
+}
+
+.quote{
+    text-align: center;
+    margin-top: 20px;
+    width: 450px;
+    margin-left: 345px;
+    font-size: 15px;
+}
+
+#sosmed{
+    margin-top: 200px;
+}
+
+.kontak
+{
+    margin-left: 450px;
+    margin-bottom: 50px;
+    color: #112D4E;
+}
+
+.instagram{
+    display: flex;
+}
+
+.ig{
+    height: auto;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.descig{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #112D4E;
+    text-decoration: none;
+}
