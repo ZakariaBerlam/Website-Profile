@@ -249,3 +249,21 @@ body{
     color: #112D4E;
     text-decoration: none;
 }
+
+.palo{
+    height: auto;
+    width: 60px;
+    margin-left: 120px;
+}
+
+.pale{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #112D4E;
+    text-decoration: none;
+}
+
+.lmao{
+    height: 100px;
+}

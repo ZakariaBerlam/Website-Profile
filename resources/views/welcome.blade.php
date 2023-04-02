@@ -16,7 +16,7 @@
       <a class="nav-link" href="#">Profile</a>
       <a class="nav-link" href="#skillset">Skills</a>
       <a class="nav-link" href="#aboutme">About Me</a>
-      <a class="nav-link last-child" href="#">Know Me More</a>
+      <a class="nav-link last-child" href="#sosmed">Know Me More</a>
     </nav>
 
     <section class="profile" id="Profile">
@@ -164,11 +164,21 @@
     </section>
 
     <section id="sosmed">
+        <div class="lmao"></div>
         <h1 class="kontak">Contact me on</h1>
         <div class="instagram">
             <img class="ig" src="ig.png" alt="">
             <a class="descig" href="https://www.youtube.com/watch?v=UIp6_0kct_U">@zach.berlam</a>
         </div>
+        <div class="wa">
+            <img class="ig" src="wa.png" alt="">
+            <a class="descig" href="https://www.youtube.com/watch?v=UIp6_0kct_U">+6282147279041</a>
+        </div>
+        <div class="wa">
+            <img class="palo" src="palo.png" alt="">
+            <a class="pale" href="https://www.youtube.com/watch?v=UIp6_0kct_U">Pupu#2147</a>
+        </div>
+        <div class="lmao"></div>
     </section>
 </body>
 </html>
