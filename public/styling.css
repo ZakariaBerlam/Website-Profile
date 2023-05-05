@@ -120,13 +120,18 @@ body{
     background-color: #112D4E !important;
 }
 
-.card{
+#kartu{
     margin-left: 215px;
 }
 
 .text-body-secondary{
     display: flex;
     flex-direction: column;
+}
+
+.card-img-top{
+    height: 250px;
+    width: auto;
 }
 
 #aboutme{
@@ -267,3 +272,15 @@ body{
 .lmao{
     height: 100px;
 }
+
+#hobbyku{
+    margin-top: 250px;
+    display: flex;
+    margin-left: 75px;
+}
+
+#kartunya{
+    margin-right: 50px;
+}
+
+

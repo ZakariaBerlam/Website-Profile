@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request as HttpRequest;
+use App\Http\Controllers\iniController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +15,8 @@ use Illuminate\Http\Request as HttpRequest;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/',[iniController::class,'anjay']);
+Route::get('/{nama}',[iniController::class,'deskrip']);

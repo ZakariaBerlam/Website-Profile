@@ -12,10 +12,13 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+    @extends('home')
+    @section('konten')
     <nav class="nav justify-content-center sticky-top">
       <a class="nav-link" href="#">Profile</a>
       <a class="nav-link" href="#skillset">Skills</a>
       <a class="nav-link" href="#aboutme">About Me</a>
+      <a class="nav-link " href="#hobbyku">Hobby</a>
       <a class="nav-link last-child" href="#sosmed">Know Me More</a>
     </nav>
 
@@ -41,7 +44,7 @@
         <h2 class="titleskil">Skills</h2>
         <div class="containerskill">
             <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
+                <div class="carousel-inner" id="kartu">
                     <div class="carousel-item">
                         <div class="card mb-3" style="max-width: 720px;">
                             <div class="row g-0">
@@ -163,6 +166,19 @@
         </div>
     </section>
 
+    <section id="hobbyku" class="flex-container">
+        @foreach ($Hobby as $hob)
+            <div class="card" id="kartunya" style="width: 18rem;">
+                <img src="{{$hob['image']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{$hob['Hobby name']}}</h5>
+                  <p class="card-text">{{$hob['Hobby Detail']}}</p>
+                  <a href="/{{$hob['Hobby name']}}" class="btn btn-primary">Detail</a>
+                </div>
+            </div>
+        @endforeach
+    </section>
+
     <section id="sosmed">
         <div class="lmao"></div>
         <h1 class="kontak">Contact me on</h1>
@@ -180,5 +196,7 @@
         </div>
         <div class="lmao"></div>
     </section>
+
+
 </body>
 </html>
