@@ -10,5 +10,7 @@ this page is also a carousel, so you can click left or right arrow to change the
 ![img1](https://github.com/ZakariaBerlam/Website-Profile/blob/master/About%20us.png)
 # Hobby
 this page contain all of my hobbies
-
+![img1](https://github.com/ZakariaBerlam/Website-Profile/blob/master/hobby.png)
+# Know me more
+this page contain all of my contact so you can contact me if u need something
 ![img1](https://github.com/ZakariaBerlam/Website-Profile/blob/master/Preview.png)
